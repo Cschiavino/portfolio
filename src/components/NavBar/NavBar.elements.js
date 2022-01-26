@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { GiBrain } from 'react-icons/gi';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
@@ -23,10 +23,9 @@ height: 40px;
 ${Container}
 `;
 
-export const NavLogo = styled(Link)`
+export const NavLogo = styled.h1`
 color: #fff;
 justify-self: flex-start;
-cursor: pointer;
 text-decoration: none;
 font-size: 2rem;
 align-items: center;
@@ -93,6 +92,7 @@ display: flex;
 text-decoration: none;
 padding: 0.5rem 1rem;
 height: 100%;
+cursor: pointer;
 
 @media screen and (max-width: 960px) {
     text-align: center;

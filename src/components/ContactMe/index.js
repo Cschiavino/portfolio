@@ -76,37 +76,37 @@ const ContactMe = () => {
                                 <Heading>
                                 <TypeWriterEffect
                                     textStyle={{ fontFamily: 'sans-serif' }}
-                                    startDelay={100}
+                                    startDelay={20}
                                     cursorColor="white"
                                     text="Contact Me..."
                                     typeSpeed={300}
                                 />
                                 </Heading>
                                 <Grid container spacing={2} alignItems = "center" height = "100">
-                                    <Grid item style={{ textAlign: "center"}}>
+                                    <Grid item xs={2} style={{ textAlign: "center"}}>
                                         <Stack spacing={2}>
                                             <LinkedIn style={{ fontSize: 60 }}/>
                                             <GitHub style={{ fontSize: 60 }}/>
                                             <Email style={{ fontSize: 60 }}/>
                                         </Stack>
                                     </Grid>
-                                    <Grid item style={{ textAlign: "center"}}>
+                                    <Grid item xs={8} style={{ textAlign: "center"}}>
                                         <Stack spacing={5.5}>
                                             <TextTypography variant = "h5" >LinkedIn</TextTypography>
                                             <TextTypography variant = "h5" >GitHub</TextTypography>
-                                            <TextTypography variant = "h5" >Email: cschiavino23@gmail.com</TextTypography>
+                                            <TextTypography variant = "h5" >Email</TextTypography>
                                         </Stack>
                                     </Grid>
-                                    <Grid item style={{ textAlign: "center"}}>
+                                    <Grid item xs={2} style={{ textAlign: "center"}}>
                                         <Stack spacing={2}>
                                             <IconButton target="_blank" href="https://www.linkedin.com/in/cschiavino">
                                                 <Arrow style={{ fontSize: 42 }}/>
                                             </IconButton>
-                                            <IconButton>
+                                            <IconButton target="_blank" href="https://github.com/Cschiavino/portfolio.git">
                                                 <Arrow style={{ fontSize: 42 }}/>
                                             </IconButton>
-                                            <IconButton>
-                                                <Clipboard onClick={copy} style={{ fontSize: 42 }}/>
+                                            <IconButton onClick={copy}>
+                                                <Clipboard style={{ fontSize: 42 }}/>
                                             </IconButton>
                                         </Stack>
                                     </Grid>

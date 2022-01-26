@@ -27,7 +27,7 @@ const AboutMe = () => {
                                 <Heading>
                                 <TypeWriterEffect
                                     textStyle={{ fontFamily: 'sans-serif' }}
-                                    startDelay={100}
+                                    startDelay={20}
                                     cursorColor="black"
                                     text="About Me..."
                                     typeSpeed={300}

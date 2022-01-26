@@ -62,16 +62,8 @@ font-weight: 600;
 color: #fff;
 
 @media screen and (max-width: 480px) {
-    font-side: 24px;
+    font-size: 24px;
 }
-`
-
-export const Subtitle = styled.p`
-max-width: 440px;
-margin-bottom: 35px;
-font-size: 18px;
-line-height: 24px;
-color: #010606
 `
 export const ImgWrap = styled.div`
 max-width: 555px;

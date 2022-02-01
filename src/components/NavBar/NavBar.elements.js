@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { GiBrain } from 'react-icons/gi';
 import { Link } from 'react-scroll';
 import { Container } from '../../globalStyles';
 
@@ -23,16 +22,13 @@ height: 40px;
 ${Container}
 `;
 
-export const NavLogo = styled.h1`
+export const NavLogo = styled(Link)`
 color: #fff;
 justify-self: flex-start;
+cursor: pointer;
 text-decoration: none;
 font-size: 2rem;
 align-items: center;
-`;
-
-export const NavIcon = styled(GiBrain)`
-margin-right: 0.5rem;
 `;
 
 export const MobileIcon = styled.div`

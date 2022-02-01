@@ -20,7 +20,7 @@ const NavBar = () => {
             <IconContext.Provider value={{ color: '#fff' }}>
                 <Nav>
                     <NavBarContainer>
-                        <NavLogo>
+                        <NavLogo to="home" onClick={closeMobileMenu} spy={true} smooth={true}>
                             Cschiavino.com
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>

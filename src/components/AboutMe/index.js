@@ -25,27 +25,27 @@ const AboutMe = () => {
                             <TextWrapper>
                                 <TopLine>Who am I?</TopLine>
                                 <Heading>
-                                <TypeWriterEffect
-                                    textStyle={{ fontFamily: 'sans-serif' }}
-                                    startDelay={20}
-                                    cursorColor="black"
-                                    text="About Me..."
-                                    typeSpeed={300}
-                                />
+                                    <TypeWriterEffect
+                                        textStyle={{ fontFamily: 'sans-serif' }}
+                                        startDelay={20}
+                                        cursorColor="black"
+                                        text="About Me..."
+                                        typeSpeed={300}
+                                    />
                                 </Heading>
                                 <Subtitle>
                                     My name is Christopher Schiavino and I am a computer engineering 
-                                    undergraduate at the University of Central Florida.
+                                    undergraduate at the University of Central Florida planning to graduate in the Fall of 2022.
                                     I am an eager student passionate about working in software engineering, 
                                     web development, and embedded systems. In my free time, I love to
-                                    workout, rock climb, and build PCs.
+                                    workout, rock climb, and build PCs!
                                 </Subtitle>
                             </TextWrapper>
                         </Column1>
                         <Column2>
-                        <ImgWrap>
-                        <Img src = {Working}/>
-                        </ImgWrap>
+                            <ImgWrap>
+                                <Img src = {Working}/>
+                            </ImgWrap>
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>

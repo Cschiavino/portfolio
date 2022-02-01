@@ -62,7 +62,7 @@ font-weight: 600;
 color: #fff;
 
 @media screen and (max-width: 480px) {
-    font-size: 24px;
+    font-size: 20px;
 }
 `
 export const ImgWrap = styled.div`

@@ -19,6 +19,10 @@ margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
 justify-content: center;
+
+@media screen and (max-width: 760px) {
+    height: 1000px;
+}
 `
 export const InfoRow = styled.div`
 display: grid;
@@ -62,7 +66,7 @@ font-weight: 600;
 color: #010606;
 
 @media screen and (max-width: 480px) {
-    font-side: 24px;
+    font-size: 20px;
 }
 `
 
@@ -75,7 +79,7 @@ color: #010606
 `
 export const ImgWrap = styled.div`
 max-width: 555px;
-height: 100%;
+height: 100%
 `
 export const Img = styled.img`
 width: 100%;

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HomeContainer = styled.div`
-background: #0c0c0c;
+background: #101522;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -30,9 +30,17 @@ object-fit: cover;
 overflow: hidden;
 `;
 
+export const ImageBg = styled.img`
+width: 100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: cover;
+overflow: hidden;
+`;
+
 export const HomeContent = styled.div`
 z-index: 3;
-max-midth: 1200px;
+max-width: 1200px;
 position: absolute;
 padding: 8px 24px;
 display: flex;

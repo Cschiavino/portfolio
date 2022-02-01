@@ -1,1 +1,1 @@
-This files compile the code to make my personal portfolio website function. Some of the features I used to make it function include react-scroll, styled-compnonents, MaterialUI, and typescript-react. Feel free to take a look!
+These files compile the code to make my personal portfolio website function. Some of the features I used include react-scroll, styled-compnonents, MaterialUI, and typescript-react. Feel free to take a look!
